@@ -12,26 +12,27 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "pealkiri": {
       "type": "string",
-      "required": true
-    },
-    "date": {
-      "type": "date",
-      "required": true
-    },
-    "location": {
-      "type": "string",
-      "required": true
+      "required": false
     },
     "img": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
         "videos"
       ]
+    },
+    "object": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::object.object",
+      "inversedBy": "photos"
+    },
+    "kirjeldus": {
+      "type": "text"
     }
   }
 }
