@@ -2,11 +2,15 @@
   "collectionName": "components_osk_oskuseds",
   "info": {
     "displayName": "oskused",
-    "icon": "angle-up"
+    "icon": "angle-up",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "tekst": {
+      "type": "string"
+    },
+    "asd": {
       "type": "string"
     }
   }
