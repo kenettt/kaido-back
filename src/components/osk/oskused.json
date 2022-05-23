@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_osk_oskuseds",
+  "info": {
+    "displayName": "oskused",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "tekst": {
+      "type": "string"
+    }
+  }
+}

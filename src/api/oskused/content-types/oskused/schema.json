@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oskuseds",
+  "info": {
+    "singularName": "oskused",
+    "pluralName": "oskuseds",
+    "displayName": "Oskused"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "oskused": {
+      "displayName": "oskused",
+      "type": "component",
+      "repeatable": true,
+      "component": "osk.oskused"
+    }
+  }
+}
