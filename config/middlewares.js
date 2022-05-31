@@ -11,7 +11,14 @@ module.exports = [
           upgradeInsecureRequests: null,
         },
       },
-    }},
+    },
+    gzip: {
+      enabled: true,
+      options: {
+        br: false
+      }
+    }
+  },  
   'strapi::errors',
   'strapi::cors',
   'strapi::poweredBy',
