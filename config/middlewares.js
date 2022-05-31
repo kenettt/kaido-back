@@ -10,14 +10,16 @@ module.exports = [
           'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,
         },
-      },
+      }
+    },
+    settings: {
       gzip: {
         enabled: true,
         options: {
           br: false
         }
       }
-    },
+    }
   },  
   'strapi::errors',
   'strapi::cors',
