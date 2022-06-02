@@ -9,9 +9,6 @@
   "attributes": {
     "tekst": {
       "type": "string"
-    },
-    "asd": {
-      "type": "string"
     }
   }
 }
