@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "asukoht": {
-      "type": "string"
-    },
     "ehitusaeg": {
       "type": "date"
     },
@@ -36,6 +33,12 @@
         "videos",
         "audios"
       ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "asukoht": {
+      "type": "richtext"
     }
   }
 }

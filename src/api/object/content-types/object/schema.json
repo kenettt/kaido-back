@@ -25,12 +25,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "photos": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::photo.photo",
-      "mappedBy": "object"
     }
   }
 }
