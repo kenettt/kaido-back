@@ -12,12 +12,12 @@
   "devDependencies": {},
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.2",
-    "@strapi/plugin-i18n": "4.1.8",
-    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/plugin-i18n": "^4.5.3",
+    "@strapi/plugin-users-permissions": "^4.5.3",
     "@strapi/provider-upload-cloudinary": "^4.1.8",
     "@strapi/strapi": "^4.5.3",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.7.3",
+    "better-sqlite3": "^8.0.1",
+    "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0"
   },
   "author": {
